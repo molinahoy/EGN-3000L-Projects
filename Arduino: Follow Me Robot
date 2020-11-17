@@ -2,7 +2,7 @@
 int motorA1 = 8; //Forward if HIGH
 int motorA2 = 7; //Backward if HIGH
 int motorAn = 9;
-#define motorArpm 90 //Speed of Motor A in rpm.
+#define motorArpm 100 //Speed of Motor A in rpm.
 
 //motor B (Left Side)
 int motorB1 = 5; //Forward if HIGH
