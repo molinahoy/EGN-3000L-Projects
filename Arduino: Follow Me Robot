@@ -74,6 +74,9 @@ void loop(){
   //Move Straight Forward
   if(distance > 20)
   {
+    digitalWrite(motorA1, LOW);
+    digitalWrite(motorA2, HIGH);
+    analogWrite(motorAn, motorArpm);
     digitalWrite(motorB1, LOW);
     digitalWrite(motorB2, HIGH);
     analogWrite(motorBn, motorBrpm);
