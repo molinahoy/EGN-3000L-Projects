@@ -20,5 +20,16 @@
   4. If the user would like to program offline by downloading the Arduino Desktop IDE, they may refer to the link below, scroll down to __"Install the Arduino Desktop IDE"__, and select the operating system the user is using.
       1. https://www.arduino.cc/en/Guide
     
- ## Connections Diagram (recommended to do before implementing code).
-    ![](connections.png)
+  ## How to install code into Arduino.
+  1. Copy the code from Arduino: Follow Me Robot Code in files.
+  2. Paste the code into the Arduino Editor.
+  3. Upload code into the Arduino Board.
+    
+ ## Connections Diagram
+   ![](connections.png)
+   
+ ## Final Step
+  Assemble all of the hardware onto the chassis. Place intended object the robot will follow in front of the sensors (10 cm - 15 cm away). Turn on the robot by connecting a 9V battery with the Arduino Board. Move the object around to prompt the robot to move. And that's it!
+
+### Contributers
+  __Molina Hoy (Software Lead)__
