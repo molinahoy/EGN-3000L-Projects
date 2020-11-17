@@ -3,14 +3,14 @@
   This project is related to USF EGN 3000L Team L's project, which includes designing an autonomous robot using the Arduino Uno R3 board. Other important parts of the robot include an untrasonic sensor and an H-bridge to control the geared motors. The code included in this project is designed to make the Arduino robot car follow an object. It essentially uses the ultrasonic sensor to send pulses to a nearby object, calculates the time it takes for an echo to travel back to the sensor, converts the time to distance (in centimeters), and makes the robot move rightwards, leftwards, straight, or stop depending on the distance.
   
 ## Prerequisites
-   Before continuing, you must have met the following requirements:
-    * Familiarity with the Arduino web editor or the downloaded the Arduino Desktop IDE (*If not, refer to __Getting the Arduino Software__*).
-    * Have the required hardwares: 
-      * Arduino Uno R3 board
-      * H-bridge
-      * Ultrasonic Sensor
-      * 4 Geared Motors
-     * Have a chassis for the robot that has designated space for the hardwares.
+ Before continuing, you must have met the following requirements:
+* Familiarity with the Arduino web editor or the downloaded the Arduino Desktop IDE (*If not, refer to __Getting the Arduino Software__*).
+* Have the required hardwares: 
+  * Arduino Uno R3 board
+  * H-bridge
+  * Ultrasonic Sensor
+  * 4 Geared Motors
+* Have a chassis for the robot that has designated space for the hardwares.
      
 ## Getting the Arduino Software
   1. Go to the website https://www.arduino.cc/
