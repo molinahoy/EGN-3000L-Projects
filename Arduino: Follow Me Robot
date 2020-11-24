@@ -3,12 +3,14 @@ int motorA1 = 8; //Forward if HIGH
 int motorA2 = 7; //Backward if HIGH
 int motorAn = 9;
 #define motorArpm 100 //Speed of Motor A in rpm.
+#define motorAslow 50 //Slow down the speed
 
 //motor B (Left Side)
 int motorB1 = 5; //Forward if HIGH
 int motorB2 = 4; //Backward if HIGH
 int motorBn = 3;
 #define motorBrpm 100 //Speed of Motor B in rpm.
+#define motorBslow 50 //Slow down the speed
 
 //sensor
 const int trigPin = 12; //Output of sensor
@@ -48,10 +50,10 @@ void loop(){
   {
     digitalWrite(motorA1, HIGH);
     digitalWrite(motorA2, LOW);
-    analogWrite(motorAn, motorArpm);
+    analogWrite(motorAn, motorAslow);
     digitalWrite(motorB1, LOW);
     digitalWrite(motorB2, HIGH);
-    analogWrite(motorBn, motorBrpm);
+    analogWrite(motorBn, motorBslow);
   }
   
   //Stop
@@ -65,10 +67,10 @@ void loop(){
   if(distance > 10 && distance < 20){
     digitalWrite(motorA1, LOW);
     digitalWrite(motorA2, HIGH);
-    analogWrite(motorAn, motorArpm);
+    analogWrite(motorAn, motorAslow);
     digitalWrite(motorB1, HIGH);
     digitalWrite(motorB2, LOW);
-    analogWrite(motorBn, motorBrpm);
+    analogWrite(motorBn, motorBslow);
   }
   
   //Move Straight Forward
